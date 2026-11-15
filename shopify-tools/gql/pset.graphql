@@ -1,0 +1,1 @@
+mutation($input: ProductSetInput!) { productSet(input: $input, synchronous: true) { product { id handle title status variants(first: 5) { nodes { title price compareAtPrice sku } } } userErrors { field message code } } }

@@ -1,0 +1,91 @@
+# fig&oat: handoff to a new Claude Code account
+
+Last updated: 15 Nov 2026. In the new account, start the first session in this folder and say:
+"Read HANDOFF.md and continue the fig&oat store setup."
+
+## Where things live
+- **Google Drive is the shared home for all devices:** folder "fig&oat" in concierge@figandoat.com's Drive: https://drive.google.com/drive/folders/145biQtIgTXlThfGo7EGS5I2dX6yKPVhz. Save new docs, notes and assets there, and keep HANDOFF.md there up to date.
+- Laptop copy: `Desktop\fig-and-oat`. It's needed to run the Shopify CLI scripts. When it changes, copy the change to Drive too.
+
+## What the business is
+- **Brand:** fig&oat (store name "Fig & Oat"). Shopify dropshipping, with AliExpress suppliers through DSers. US customers only.
+- **Domain:** figandoat.com is owned but **not connected to Shopify yet**.
+- **Email:** concierge@figandoat.com. This is also the Shopify login.
+- **Store:** 1ws1tg-iy.myshopify.com. Still password protected ("Opening soon").
+- **Owner style:** knows content and Meta ads, wants concise, no-BS answers.
+
+## Store state (checked live 15 Nov 2026)
+- **Live theme:** "fig&oat (draft)", gid://shopify/OnlineStoreTheme/194573140247 (MAIN).
+  - It has the logo `figandoat-logo-header.png` and favicon `figandoat-favicon.png`.
+  - Colors: background #FAF6EF, text #4A1F3D, accent #6B4A5E and #E6DCCB. Font: Jost.
+  - The old "Horizon" theme (194475589911) is unpublished.
+- **Policies:** Shipping and Refund (30-day guarantee, customer keeps the product) are saved in Shopify. Privacy and Terms are Shopify templates. Drafts are in `shop-policies-draft.md`.
+- **Products:** all 4 are **ACTIVE**, have **no images**, and use placeholder compare-at prices (an FTC risk, so remove them or make them real):
+
+| Handle | Variants (SKU, price) |
+|---|---|
+| smooth-stick (hero) | FO-STICK-1 $24 · FO-STICK-2M (2 sticks + mitt) $44 · FO-STICK-3MH (3 sticks + mitt + heel) $59 |
+| smooth-skin-set | FO-SET-3 $39 |
+| exfoliating-mitt | FO-MITT-1 $12 |
+| heel-stick | FO-HEEL-1 $16 |
+
+### Re-checked 15 Nov 2026 (new account)
+- Live store matches the above: 4 ACTIVE products, same SKUs and prices, same themes.
+- **New:** products show no sales-channel publications and no Online Store URL, so they're probably not published to the Online Store yet. Check before launch.
+- All variant weights are 0 lb. Compare-at prices are still placeholders ($32/$60/$90/$52/$16/$22).
+- Heel Stick SEO title says "Urea + Salicylic". Confirm salicylic acid from the sample's INCI list.
+- DSers mapping status not checked yet (no DSers sign-in on the laptop).
+
+## Suppliers (use the aliexpress.us links)
+AliExpress US item IDs = .com ID + 2251799813685248.
+
+| Role | Link | Notes |
+|---|---|---|
+| Hero stick | https://www.aliexpress.us/item/3256810386540392.html (Lakerain) | 5K+ sold, 4.9. Spec says 18g, so check the size. Lakerain branding is printed on the stick. |
+| Hero backup | https://www.aliexpress.us/item/3256810598733159.html | 304 sold, 4.8 |
+| Mitt | https://www.aliexpress.us/item/3256805951922355.html | 3K+ sold, 4.7 |
+| Heel stick | https://www.aliexpress.us/item/3256809084496799.html (SUYARUN 60% urea) | 10K+ sold, 4.8 |
+
+- **Dropped:** VividHub 1005012396228111, because its photos show The Inkey List's branding. Avoid any listing that names another brand.
+- **Prices:** AliExpress shows new-shopper teaser prices ($0.33 to $1.09). Real costs and US shipping must come from DSers.
+- **DSers status:** the 4 products are synced. Mapping is not done yet: use Standard Mapping for single items and Bundle Mapping for the bundles and the set.
+
+## Open to-dos
+1. Map all 4 products in DSers. Then confirm real cost, US shipping time and margins.
+2. Order samples. Check the stick size, label, INCI ingredient list and smell.
+3. Add product photos.
+4. Rename the theme to "fig&oat".
+5. Add a business address to the policies and the store.
+6. Connect figandoat.com in Shopify.
+7. Set up Meta: pixel and Conversions API (via the Facebook & Instagram app in Shopify), the ad account and creatives.
+8. Remove the store password only once everything above is done.
+
+## Files in this folder
+- `fig-and-oat-logo/`: every logo variant (SVG and PNG), the favicon, the Instagram icon and the Jost 500 font. The colors are fig #4A1F3D, oat #F3EADB, honey #B08A5B and leaf #7A8450.
+- `shop-policies-draft.md`: the shipping and refund policy text.
+- `kp-body-kit-validation.md`: the original demand research from 31 Oct.
+- `shopify-tools/`: scripts and GraphQL used on the store.
+  - `scripts/sx.sh` runs a .graphql file through Shopify CLI (laptop: CLI 5.0.1, logged in 15 Nov; in Git Bash add `/c/Users/DELL/AppData/Roaming/npm` to PATH first).
+  - `scripts/sx-token.sh` does the same with an Admin API token in `SHOPIFY_TOKEN` (for cloud sessions, untested).
+  - `scripts/products.py` builds the product JSON.
+  - `gql/` holds the queries, product payloads and policy payloads.
+
+## Launch plan doc
+https://claude.ai/artifact/9ERo44AKpCBd7vjXhax6ui ("KP Body Kit: Launch Plan"). It is private to the **old** Claude account. Before switching, either:
+- open it, then use **Share** and add the new account's email with edit access, or
+- use the doc's **Export → Markdown** and save the file into this folder.
+
+## Reconnect in the new account
+Connectors belong to the Claude account, so none of them move over. Add each one in the new account's Connectors settings:
+- **Shopify:** the claude.ai connector failed with "requires authentication" before. What worked was the **Shopify AI Toolkit plugin** plus **Shopify CLI**:
+  - Shopify CLI 5.0.0 is installed in `%APPDATA%\npm`. A global update fails with EPERM because npm's prefix points at D:\npm-global. Install with `npm install -g --prefix "%APPDATA%\npm" @shopify/cli@latest`.
+  - The CLI login is stored on this Windows user, not in the Claude account. It may still work, so test it with `bash shopify-tools/scripts/sx.sh shopify-tools/gql/state.graphql`.
+  - If it doesn't work, log in again with `shopify store auth --store 1ws1tg-iy.myshopify.com --scopes read_products,write_products,read_themes,write_themes,read_content,write_content,read_files,write_files,read_legal_policies,write_legal_policies,read_publications,write_publications`.
+- **Meta Ads:** connect it with the Facebook account that owns the fig&oat ad account.
+- **Google Drive:** connected as concierge@figandoat.com (15 Nov 2026). **Gmail:** not connected yet. Connect it as concierge@figandoat.com.
+- **Claude Docs:** turn it on to read and edit the launch doc once it's shared.
+
+## Rules carried over
+- Never enter passwords or payment details, and never buy anything. The owner does those.
+- Show the exact command and get a yes before any Shopify login, install, change or publish.
+- Publishing a theme and removing the store password are the owner's actions.

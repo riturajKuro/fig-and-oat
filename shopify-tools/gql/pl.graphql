@@ -1,0 +1,1 @@
+{ products(first: 10) { nodes { title status totalVariants vendor media(first:1){nodes{id}} } } }

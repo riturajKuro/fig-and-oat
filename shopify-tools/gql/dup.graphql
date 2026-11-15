@@ -1,0 +1,1 @@
+mutation { themeDuplicate(id: "gid://shopify/OnlineStoreTheme/194475589911", name: "fig&oat (draft)") { newTheme { id name role } userErrors { field message } } }

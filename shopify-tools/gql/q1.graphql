@@ -1,0 +1,1 @@
+{ themes(first: 5) { nodes { id name role } } files(first: 5, query: "filename:figandoat*") { nodes { ... on MediaImage { fileStatus image { url } } } } }

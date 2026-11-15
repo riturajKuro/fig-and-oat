@@ -1,0 +1,3 @@
+{ shop { name primaryDomain { host } }
+  products(first: 10) { nodes { handle title status variants(first:5){nodes{sku price}} } }
+  themes(first: 5) { nodes { id name role } } }

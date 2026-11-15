@@ -1,0 +1,1 @@
+{ a: __type(name: "ProductSetInput") { inputFields { name } } b: __type(name: "ProductVariantSetInput") { inputFields { name } } c: __type(name: "ProductSetInventoryItemInput") { inputFields { name } } }

@@ -1,0 +1,1 @@
+{ theme(id: "gid://shopify/OnlineStoreTheme/194573140247") { processing files(filenames: ["config/settings_data.json","config/settings_schema.json"], first: 2) { nodes { filename body { ... on OnlineStoreThemeFileBodyText { content } } } } } }
