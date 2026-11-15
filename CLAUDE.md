@@ -3,8 +3,8 @@
 Read `HANDOFF.md` first. It is the source of truth for store state, suppliers, to-dos and rules.
 
 ## Running in the cloud (claude.ai/code)
-- There is no Shopify CLI login in the cloud. Run store queries with `bash shopify-tools/scripts/sx-token.sh <file.graphql> [vars.json] [--allow-mutations]`. It reads the Admin API token from the `SHOPIFY_TOKEN` environment secret.
-- Never print, echo or commit the token.
+- There is no Shopify CLI login in the cloud. Run store queries with `bash shopify-tools/scripts/sx-token.sh <file.graphql> [vars.json] [--allow-mutations]`. It authenticates with the `SHOPIFY_CLIENT_ID` + `SHOPIFY_CLIENT_SECRET` environment secrets (the "fig&oat ops" Dev Dashboard app, client credentials grant), or with `SHOPIFY_TOKEN` if that's set.
+- Never print, echo or commit these secrets.
 - On the laptop, use `shopify-tools/scripts/sx.sh` (Shopify CLI) instead.
 
 ## Shared files
