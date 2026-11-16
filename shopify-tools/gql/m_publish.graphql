@@ -1,0 +1,5 @@
+mutation Publish {
+  stick: publishablePublish(id: "gid://shopify/Product/15485025583383", input: [{ publicationId: "gid://shopify/Publication/332830441751" }, { publicationId: "gid://shopify/Publication/332830507287" }]) { userErrors { field message } }
+  mitt: publishablePublish(id: "gid://shopify/Product/15485025714455", input: [{ publicationId: "gid://shopify/Publication/332830441751" }, { publicationId: "gid://shopify/Publication/332830507287" }]) { userErrors { field message } }
+  heel: publishablePublish(id: "gid://shopify/Product/15485025845527", input: [{ publicationId: "gid://shopify/Publication/332830441751" }, { publicationId: "gid://shopify/Publication/332830507287" }]) { userErrors { field message } }
+}

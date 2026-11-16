@@ -1,0 +1,5 @@
+mutation Photos($stickId: ID!, $stickDesc: String!, $stickMedia: [CreateMediaInput!], $mittId: ID!, $mittDesc: String!, $mittMedia: [CreateMediaInput!], $heelId: ID!, $heelDesc: String!, $heelMedia: [CreateMediaInput!]) {
+  stick: productUpdate(product: { id: $stickId, descriptionHtml: $stickDesc }, media: $stickMedia) { product { handle media(first: 10) { nodes { status } } } userErrors { field message } }
+  mitt: productUpdate(product: { id: $mittId, descriptionHtml: $mittDesc }, media: $mittMedia) { product { handle media(first: 10) { nodes { status } } } userErrors { field message } }
+  heel: productUpdate(product: { id: $heelId, descriptionHtml: $heelDesc }, media: $heelMedia) { product { handle media(first: 10) { nodes { status } } } userErrors { field message } }
+}
