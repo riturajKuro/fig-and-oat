@@ -66,6 +66,12 @@ AliExpress US item IDs = .com ID + 2251799813685248.
 - **Later:** verify figandoat.com in Business settings once it's connected to Shopify. Install the pixel and Conversions API with Shopify's Facebook & Instagram app.
 - **Ad Library:** no setup needed. US competitor swipe file done 16 Nov: `research/ad-library-swipe-2026-11-16.md`, also in Drive as a Google Doc. Key finding: Equalize Labs has run a glycolic + salicylic body stick (same format as ours) since Jul 2026, aimed at seborrheic keratoses, so the KP / strawberry-legs angle for a stick is open.
 
+## Sourcing and branding decisions (16 Nov 2026)
+- **Packaging: neutral first.** Use listings with no brand printed on the product or box, and add the DSers order note "Dropshipping order: no invoice, no price tags, no promotional material, no logo inserts". Move best sellers to private label (logo sticker, box and insert via an agent) later. This means the **Lakerain hero stick (brand printed on the stick) has to be replaced with an unbranded stick listing**, or kept only as a backup.
+- **Legal seller:** the owner is forming a **US LLC soon**. Once it exists, update the Shopify billing address, policies, Meta business info and (later) product labels with the LLC name and address.
+- **DSers:** the owner signs in to DSers in Victor's Chrome (Browser 2). Claude then links AliExpress (the owner logs in to AliExpress), vets suppliers, maps products and reads real costs and shipping, sending screenshots before saving.
+- **Store audit:** `research/store-audit-2026-11-16.md` (also a Google Doc in Drive). Biggest blocker: products aren't published to any sales channel.
+
 ## Open to-dos
 1. Map all 4 products in DSers. Then confirm real cost, US shipping time and margins.
 2. Order samples. Check the stick size, label, INCI ingredient list and smell.
