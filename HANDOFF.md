@@ -64,7 +64,7 @@ AliExpress US item IDs = .com ID + 2251799813685248.
 - **Facebook Page:** "fig&oat", inside that portfolio. Profile picture `fig-and-oat-logo/icon-instagram-1080.png`.
 - **Ad account:** USD, time zone America/New_York (both permanent). The owner adds the payment method and turns on two-factor login.
 - **Later:** verify figandoat.com in Business settings once it's connected to Shopify. Install the pixel and Conversions API with Shopify's Facebook & Instagram app.
-- **Ad Library:** no setup needed. Plan: a US competitor swipe file in Drive (strawberry legs, KP, body exfoliant, heel balm), plus saved searches on Victor's account.
+- **Ad Library:** no setup needed. US competitor swipe file done 16 Nov: `research/ad-library-swipe-2026-11-16.md`, also in Drive as a Google Doc. Key finding: Equalize Labs has run a glycolic + salicylic body stick (same format as ours) since Jul 2026, aimed at seborrheic keratoses, so the KP / strawberry-legs angle for a stick is open.
 
 ## Open to-dos
 1. Map all 4 products in DSers. Then confirm real cost, US shipping time and margins.
