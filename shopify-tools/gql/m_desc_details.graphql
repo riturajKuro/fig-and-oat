@@ -1,0 +1,5 @@
+mutation Details($a: ID!, $ad: String!, $b: ID!, $bd: String!, $c: ID!, $cd: String!) {
+  a: productUpdate(product: { id: $a, descriptionHtml: $ad }) { product { handle } userErrors { field message } }
+  b: productUpdate(product: { id: $b, descriptionHtml: $bd }) { product { handle } userErrors { field message } }
+  c: productUpdate(product: { id: $c, descriptionHtml: $cd }) { product { handle } userErrors { field message } }
+}
