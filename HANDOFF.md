@@ -76,6 +76,8 @@ AliExpress US item IDs = .com ID + 2251799813685248.
 - **Mitt supplier checked (16 Nov):** 3256805951922355, New-Journey Store, **Choice, free shipping, ≤9 days, 4.7★ from 267 reviews, 3,000+ sold, unbranded**. Keep it.
 - **Heel stick:** SUYARUN 3256809084496799 is Choice, free shipping, 4.8★ from 3,479 reviews, 10,000+ sold, and confirms 60% urea + 2% salicylic. But **SUYARUN is printed on it**, and every urea foot stick in the DSers search is branded (SUYARUN, JUINHOU…). This needs an owner decision.
 - **DSers mapping limits:** the current DSers plan only offers Basic and Advanced mapping, **no Bundle Mapping**, so "2 sticks + mitt", "3 sticks + mitt + heel" and the Set can't auto-order several different items. The unbranded stick is saved in the Smooth Stick's DSers favorites; no mapping has been saved yet.
+- **16 Nov changes (owner-approved):** bundles simplified because DSers has no Bundle Mapping. The Smooth Stick is now 1 / 2 / 3 sticks at $24 / $42 / $57 (SKUs FO-STICK-1/2/3). All compare-at prices are removed. The Smooth Skin Set is **DRAFT**. Mitt $12 and Heel $16 are unchanged and sold as add-ons.
+- **DSers mapping saved (16 Nov):** Smooth Stick → unbranded stick 3256810600031896, variant "Exfoliating Stick", quantities 1/2/3, cost $4.47. Heel Stick → SUYARUN, variant "40g 1" (single stick; check against the sample). **Problem: the stick listing shows "Only 1 left"** (DSers stock 1), so it can't be the main supplier yet. Mitt mapping still needs a colour (Pink / Purple / Black / White).
 - **Store audit:** `research/store-audit-2026-11-16.md` (also a Google Doc in Drive). Biggest blocker: products aren't published to any sales channel.
 
 ## Open to-dos

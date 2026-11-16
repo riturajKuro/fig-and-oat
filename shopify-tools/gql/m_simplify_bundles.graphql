@@ -1,0 +1,28 @@
+mutation Simplify {
+  opt: productOptionUpdate(
+    productId: "gid://shopify/Product/15485025583383"
+    option: { id: "gid://shopify/ProductOption/17968257794327", name: "Pack" }
+    optionValuesToUpdate: [
+      { id: "gid://shopify/ProductOptionValue/15540719059223", name: "1 stick" }
+      { id: "gid://shopify/ProductOptionValue/15540719091991", name: "2 sticks" }
+      { id: "gid://shopify/ProductOptionValue/15540719124759", name: "3 sticks (best value)" }
+    ]
+  ) { userErrors { field message } }
+  stick: productVariantsBulkUpdate(
+    productId: "gid://shopify/Product/15485025583383"
+    variants: [
+      { id: "gid://shopify/ProductVariant/68204227002647", price: "24.00", compareAtPrice: null, inventoryItem: { sku: "FO-STICK-1" } }
+      { id: "gid://shopify/ProductVariant/68204227035415", price: "42.00", compareAtPrice: null, inventoryItem: { sku: "FO-STICK-2" } }
+      { id: "gid://shopify/ProductVariant/68204227068183", price: "57.00", compareAtPrice: null, inventoryItem: { sku: "FO-STICK-3" } }
+    ]
+  ) { productVariants { title sku price compareAtPrice } userErrors { field message } }
+  mitt: productVariantsBulkUpdate(
+    productId: "gid://shopify/Product/15485025714455"
+    variants: [{ id: "gid://shopify/ProductVariant/68204227199255", compareAtPrice: null }]
+  ) { productVariants { sku price compareAtPrice } userErrors { field message } }
+  heel: productVariantsBulkUpdate(
+    productId: "gid://shopify/Product/15485025845527"
+    variants: [{ id: "gid://shopify/ProductVariant/68204227297559", compareAtPrice: null }]
+  ) { productVariants { sku price compareAtPrice } userErrors { field message } }
+  set: productUpdate(product: { id: "gid://shopify/Product/15485025648919", status: DRAFT }) { product { handle status } userErrors { field message } }
+}
