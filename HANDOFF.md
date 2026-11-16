@@ -50,7 +50,13 @@ AliExpress US item IDs = .com ID + 2251799813685248.
 - **Prices:** AliExpress shows new-shopper teaser prices ($0.33 to $1.09). Real costs and US shipping must come from DSers.
 - **DSers status:** the 4 products are synced. Mapping is not done yet: use Standard Mapping for single items and Bundle Mapping for the bundles and the set.
 
-## Meta setup (decided 16 Nov 2026, not started)
+## Meta setup (decided 16 Nov 2026, in progress)
+**Done 16 Nov:**
+- Business portfolio **"Fig&oat"**, ID 1024664694005334, owner Victor M. Calvo, business email concierge@figandoat.com. Meta wouldn't accept a lowercase name. The confirmation email to concierge@ still has to be clicked.
+- Facebook Page **"Fig&oat"**, Page ID 1396805966855557 (profile URL facebook.com/profile.php?id=61596595771637). It's inside the portfolio, Victor has full access, category Health/beauty, bio "Smoother skin, simply. Body care for rough, bumpy skin. Free US shipping · 30-day guarantee.", and the f&o icon is the profile picture. No cover photo or website yet. Meta Commercial Terms were accepted with the owner's OK.
+- **Instagram username: @fig.and.oat** (owner's choice). The owner signs up, then links it to the Page.
+
+**Plan:**
 - **Owner account:** the Facebook profile "Victor", signed in on Chrome on the owner's device "Solar ViC" (Claude in Chrome "Browser 2"). Victor creates and owns the business portfolio, the Page and the ad account. Don't use the Rituraj profile: it runs client work (Eduvaance).
 - **Business portfolio:** "fig&oat", business email concierge@figandoat.com.
 - **Facebook Page:** "fig&oat", inside that portfolio. Profile picture `fig-and-oat-logo/icon-instagram-1080.png`.
