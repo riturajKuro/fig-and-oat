@@ -50,6 +50,15 @@ AliExpress US item IDs = .com ID + 2251799813685248.
 - **Prices:** AliExpress shows new-shopper teaser prices ($0.33 to $1.09). Real costs and US shipping must come from DSers.
 - **DSers status:** the 4 products are synced. Mapping is not done yet: use Standard Mapping for single items and Bundle Mapping for the bundles and the set.
 
+## Meta setup (decided 16 Nov 2026, not started)
+- **Owner account:** the Facebook profile "Victor", signed in on Chrome on the owner's device "Solar ViC" (Claude in Chrome "Browser 2"). Victor creates and owns the business portfolio, the Page and the ad account. Don't use the Rituraj profile: it runs client work (Eduvaance).
+- **Business portfolio:** "fig&oat", business email concierge@figandoat.com.
+- **Facebook Page:** "fig&oat", inside that portfolio. Profile picture `fig-and-oat-logo/icon-instagram-1080.png`.
+- **Instagram:** the display name is "fig&oat". Usernames can't contain "&", and @figandoat is taken, so the handle is still open (planned: @figandoat.co). The owner creates the account (password and code), then it's linked to the Page.
+- **Ad account:** USD, time zone America/New_York (both permanent). The owner adds the payment method and turns on two-factor login.
+- **Later:** verify figandoat.com in Business settings once it's connected to Shopify. Install the pixel and Conversions API with Shopify's Facebook & Instagram app.
+- **Ad Library:** no setup needed. Plan: a US competitor swipe file in Drive (strawberry legs, KP, body exfoliant, heel balm), plus saved searches on Victor's account.
+
 ## Open to-dos
 1. Map all 4 products in DSers. Then confirm real cost, US shipping time and margins.
 2. Order samples. Check the stick size, label, INCI ingredient list and smell.
