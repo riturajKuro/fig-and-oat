@@ -54,13 +54,12 @@ AliExpress US item IDs = .com ID + 2251799813685248.
 **Done 16 Nov:**
 - Business portfolio **"Fig&oat"**, ID 1024664694005334, owner Victor M. Calvo, business email concierge@figandoat.com. Meta wouldn't accept a lowercase name. The confirmation email to concierge@ still has to be clicked.
 - Facebook Page **"Fig&oat"**, Page ID 1396805966855557 (profile URL facebook.com/profile.php?id=61596595771637). It's inside the portfolio, Victor has full access, category Health/beauty, bio "Smoother skin, simply. Body care for rough, bumpy skin. Free US shipping · 30-day guarantee.", and the f&o icon is the profile picture. No cover photo or website yet. Meta Commercial Terms were accepted with the owner's OK.
-- **Instagram username: @fig.and.oat** (owner's choice). The owner signs up, then links it to the Page.
+- **Instagram @fig_and_oat**, IG account ID 17841425570580763. @fig.and.oat and @figandoat were taken. The owner created it in the Instagram app with concierge@figandoat.com; Meta refused to create it from Business Suite. It's a Business account, category Health/beauty, display name "fig & oat". It's in the Fig&oat portfolio, connected to the Fig&oat Page (Instagram messages show in the Business Suite inbox), and has the f&o profile picture and the same bio as the Page.
 
 **Plan:**
 - **Owner account:** the Facebook profile "Victor", signed in on Chrome on the owner's device "Solar ViC" (Claude in Chrome "Browser 2"). Victor creates and owns the business portfolio, the Page and the ad account. Don't use the Rituraj profile: it runs client work (Eduvaance).
 - **Business portfolio:** "fig&oat", business email concierge@figandoat.com.
 - **Facebook Page:** "fig&oat", inside that portfolio. Profile picture `fig-and-oat-logo/icon-instagram-1080.png`.
-- **Instagram:** the display name is "fig&oat". Usernames can't contain "&", and @figandoat is taken, so the handle is still open (planned: @figandoat.co). The owner creates the account (password and code), then it's linked to the Page.
 - **Ad account:** USD, time zone America/New_York (both permanent). The owner adds the payment method and turns on two-factor login.
 - **Later:** verify figandoat.com in Business settings once it's connected to Shopify. Install the pixel and Conversions API with Shopify's Facebook & Instagram app.
 - **Ad Library:** no setup needed. Plan: a US competitor swipe file in Drive (strawberry legs, KP, body exfoliant, heel balm), plus saved searches on Victor's account.
