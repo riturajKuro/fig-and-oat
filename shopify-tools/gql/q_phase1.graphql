@@ -1,0 +1,6 @@
+{
+  shop { shopPolicies { type body } }
+  products(first: 10) { nodes { id handle title status descriptionHtml
+    variants(first: 10) { nodes { id sku title price inventoryItem { id measurement { weight { value unit } } } } } } }
+  themes(first: 10) { nodes { id name role } }
+}

@@ -1,0 +1,88 @@
+{
+ "stick": "gid://shopify/Product/15485025583383",
+ "stickDesc": "<p><strong>Rough, bumpy skin on your legs or arms? Swipe on. Leave on. Feel the difference.</strong></p><p>The Smooth Stick is a no-mess glycolic acid body exfoliant in a twist-up stick. It gently loosens the dead skin that makes skin look dotted and feel rough, so legs, arms and the back of the neck look and feel visibly smoother.</p><h3>Why you'll like it</h3><ul>\n<li>Visibly smoother, softer skin with regular use</li>\n<li>Helps the look of “strawberry legs” and rough, bumpy patches</li>\n<li>No scrubbing, no sticky hands, no mess: swipe and go</li>\n<li>Travel-friendly solid stick</li>\n</ul><h3>Key ingredients</h3><ul>\n<li>\n<strong>Glycolic acid (7%)</strong>: an AHA that loosens dead skin cells</li>\n<li>\n<strong>Salicylic acid (0.5%)</strong>: a BHA that helps clear the look of clogged, bumpy pores</li>\n<li>\n<strong>Shea butter (10%)</strong>: keeps skin soft while you exfoliate</li>\n</ul><p><strong>Size:</strong> 18 g solid stick. <strong>Pairs well with:</strong> The Exfoliating Mitt, once or twice a week.</p><h3>How to use</h3><ol>\n<li>On clean, dry skin, swipe 2–3 times over rough areas.</li>\n<li>Leave on. Follow with moisturizer if you like.</li>\n<li>Start every other evening, then build to daily.</li>\n<li>Use sunscreen on treated areas during the day.</li>\n</ol><h3>Good to know</h3><p>Not for broken, irritated or freshly shaved skin. A light tingle is normal; stop if irritation occurs. Patch test first. For external use only.</p><h3>Shipping</h3><p>Free US shipping. Orders ship in 1–3 business days and arrive in 8–16 business days, with tracking.</p><h3>60-day smooth-skin guarantee</h3><p>Use it for 60 days. If you don't love how your skin feels, email us for a full refund. Keep the product.</p><p><em>During our launch, products ship in the manufacturer’s original packaging.</em></p>",
+ "mitt": "gid://shopify/Product/15485025714455",
+ "mittDesc": "<p><strong>Watch the dead skin roll away.</strong></p><p>A Korean-style viscose exfoliating mitt for a deep, satisfying body buff in the shower. Pairs with The Smooth Stick for visibly smoother skin.</p><h3>Details</h3><ul>\n<li>100% viscose fiber, woven to grip dead skin</li>\n<li>Elastic cuff and hanging loop</li>\n<li>One size, about 5.5 × 7.9 in (14 × 20 cm), fits most hands</li>\n<li>Colour: white</li>\n</ul><h3>How to use</h3><ol>\n<li>Soak in warm water for 10 minutes so skin softens.</li>\n<li>Wet the mitt and rub in long strokes with light pressure.</li>\n<li>Rinse, then moisturize. Use 1–2 times a week.</li>\n<li>Rinse the mitt and hang to dry. Replace every 2–3 months.</li>\n</ol><p>Skip broken, sunburned or freshly shaved skin.</p><h3>Shipping</h3><p>Free US shipping. Orders ship in 1–3 business days and arrive in 8–16 business days, with tracking.</p><h3>60-day smooth-skin guarantee</h3><p>Use it for 60 days. If you don't love how your skin feels, email us for a full refund. Keep the product.</p><p><em>During our launch, products ship in the manufacturer’s original packaging.</em></p>",
+ "heel": "gid://shopify/Product/15485025845527",
+ "heelDesc": "<p><strong>Soft heels, no greasy hands.</strong></p><p>A twist-up balm with urea and salicylic acid that softens thick, rough, dry skin on heels, elbows, knees and hands. Swipe on at night, slip on socks, and let it work while you sleep.</p><h3>Key ingredients</h3><ul>\n<li>\n<strong>Urea (60%)</strong>: softens thick, rough skin and holds in moisture</li>\n<li>\n<strong>Salicylic acid (2%)</strong>: helps loosen dry, flaky buildup</li>\n<li>\n<strong>Shea butter, tea tree oil, vitamin E</strong>: keep skin soft and comfortable</li>\n</ul><p><strong>Size:</strong> 40 g / 1.4 oz twist-up stick.</p><h3>How to use</h3><ol>\n<li>Swipe onto clean, dry heels, elbows, knees or hands at night.</li>\n<li>Wear socks for best results.</li>\n<li>Use nightly until smooth, then 2–3 times a week.</li>\n</ol><p>For heels, elbows, knees and hands. Not for face or broken skin.</p><h3>Shipping</h3><p>Free US shipping. Orders ship in 1–3 business days and arrive in 8–16 business days, with tracking.</p><h3>60-day smooth-skin guarantee</h3><p>Use it for 60 days. If you don't love how your skin feels, email us for a full refund. Keep the product.</p><p><em>During our launch, products ship in the manufacturer’s original packaging.</em></p>",
+ "ship": {
+  "type": "SHIPPING_POLICY",
+  "body": "<h3>Processing time</h3>\n<p>Orders are processed within 1–3 business days (Monday–Friday, excluding holidays). You'll get a confirmation email when your order is placed and a tracking link once it ships.</p>\n<h3>Delivery time (United States)</h3>\n<p>Most orders arrive within 8–16 business days after they ship. During peak seasons and holidays, delivery can take a few extra days.</p>\n<h3>Shipping cost</h3>\n<p>Free standard shipping on all US orders.</p>\n<h3>Where we ship</h3>\n<p>We currently ship to the United States only.</p>\n<h3>Tracking</h3>\n<p>Every order ships with tracking. If your tracking hasn't updated in 5 business days, email us at concierge@figandoat.com and we'll look into it.</p>\n<h3>Multiple packages</h3>\n<p>If you order more than one product, your items may arrive in separate packages on different days.</p>\n<h3>Lost or damaged parcels</h3>\n<p>If your order hasn't arrived within 25 business days of shipping, or arrives damaged, contact us with your order number and a photo (for damage). We'll send a replacement or a full refund.</p>\n<h3>Address changes</h3>\n<p>Need to change your address? Email us within 12 hours of placing your order. Once an order ships, we can't change the address.</p>"
+ },
+ "ref": {
+  "type": "REFUND_POLICY",
+  "body": "<h3>The guarantee</h3>\n<p>Use it for up to 60 days from delivery. If you don't love how your skin feels, email us and we'll refund your order. You don't need to send the product back.</p>\n<h3>How to request a refund</h3>\n<p>Email concierge@figandoat.com with your order number and a sentence about your experience. We reply within 1–2 business days.</p>\n<h3>Refund timing</h3>\n<p>Approved refunds go back to your original payment method within 5–10 business days, depending on your bank.</p>\n<h3>Limits</h3>\n<ul>\n<li>One guarantee refund per customer.</li>\n<li>Bundles are refunded in full under the guarantee.</li>\n<li>Orders over 60 days from delivery aren't eligible.</li>\n</ul>\n<h3>Damaged, wrong, or missing items</h3>\n<p>Contact us within 14 days of delivery with a photo, and we'll send a replacement or a refund. That's separate from the 60-day guarantee.</p>\n<h3>Skin reactions</h3>\n<p>Stop using the product if irritation occurs, and contact us. We'll refund your order in full.</p>\n<h3>Cancellations</h3>\n<p>You can cancel within 12 hours of ordering for a full refund. After that, your order may already be processing.</p>\n<h3>Contact</h3>\n<p>fig&amp;oat · concierge@figandoat.com</p>"
+ },
+ "theme": "gid://shopify/OnlineStoreTheme/194573140247",
+ "vs": [
+  {
+   "id": "gid://shopify/ProductVariant/68204227002647",
+   "inventoryItem": {
+    "measurement": {
+     "weight": {
+      "value": 40,
+      "unit": "GRAMS"
+     }
+    }
+   },
+   "price": "29.00",
+   "compareAtPrice": null
+  },
+  {
+   "id": "gid://shopify/ProductVariant/68204227035415",
+   "inventoryItem": {
+    "measurement": {
+     "weight": {
+      "value": 80,
+      "unit": "GRAMS"
+     }
+    }
+   },
+   "price": "52.00",
+   "compareAtPrice": null
+  },
+  {
+   "id": "gid://shopify/ProductVariant/68204227068183",
+   "inventoryItem": {
+    "measurement": {
+     "weight": {
+      "value": 120,
+      "unit": "GRAMS"
+     }
+    }
+   },
+   "price": "69.00",
+   "compareAtPrice": null
+  }
+ ],
+ "vm": [
+  {
+   "id": "gid://shopify/ProductVariant/68204227199255",
+   "inventoryItem": {
+    "measurement": {
+     "weight": {
+      "value": 30,
+      "unit": "GRAMS"
+     }
+    }
+   },
+   "price": "14.00",
+   "compareAtPrice": null
+  }
+ ],
+ "vh": [
+  {
+   "id": "gid://shopify/ProductVariant/68204227297559",
+   "inventoryItem": {
+    "measurement": {
+     "weight": {
+      "value": 70,
+      "unit": "GRAMS"
+     }
+    }
+   },
+   "price": "19.00",
+   "compareAtPrice": null
+  }
+ ]
+}

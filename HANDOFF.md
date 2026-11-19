@@ -95,6 +95,9 @@ AliExpress US item IDs = .com ID + 2251799813685248.
 - **Decision 20 Nov: main offer = "Smooth Skin Routine",** 2 sticks + mitt for $39 (separately $54). It uses a Shopify automatic discount and a cart link, with no DSers upgrade. Estimated margin ~$25/order.
 - **Decision 20 Nov: ads = AI-avatar UGC** for how-to, routine and explainers only. No before/after, no personal-result claims.
 - **Final plan:** `research/launch-plan-2026-11-20.md`, also a Google Doc in the fig&oat Drive folder (1IF_XfSlVYEexvG5lZdFYa9b-hEIbTR9XGS6I0VqeX10). It replaces the old to-do list.
+- **Phase 1 done (20 Nov, owner-approved, verified live):** DSers US shipping locked per product to $1.99 (stick 1/2/3 pcs Choice Special Cargo 10–15/10–16/11–17 calendar days; mitt WHITE Selection Standard 10–15; heel 40g Choice Special Cargo 10–15). Shopify: new prices stick $29 / $52 / $69, mitt $14, heel $19 (no compare-at); delivery "8–16 business days" in the shipping policy and descriptions (lost parcel 25 days); 60-day guarantee in the refund policy and descriptions; Heel Stick copy now heels, elbows, knees and hands + shea, tea tree, vitamin E, 40 g / 1.4 oz; weights 40/80/120/30/70 g (estimates); theme renamed "fig&oat". Payload: `shopify-tools/gql/m_phase1.graphql` + `v_phase1.json`. Facts: `research/product-facts.md`.
+- **Margins at the new prices** (before ads, after product, $1.99 shipping each, fees, ~5% refunds): Routine ~$32, 1 stick ~$21, 3 sticks ~$53. Competitor anchor: Equalize Labs glycolic stick $40.
+- **Still to update:** Facebook Page bio says "30-day guarantee".
 - **Higgsfield connector (20 Nov):** connected, Plus plan, 1,210 credits. In this session it can only read (models, history, balance); the generate tools aren't exposed.
 
 ## Files in this folder

@@ -1,0 +1,11 @@
+mutation Phase1($stick: ID!, $stickDesc: String!, $mitt: ID!, $mittDesc: String!, $heel: ID!, $heelDesc: String!, $ship: ShopPolicyInput!, $ref: ShopPolicyInput!, $theme: ID!, $vs: [ProductVariantsBulkInput!]!, $vm: [ProductVariantsBulkInput!]!, $vh: [ProductVariantsBulkInput!]!) {
+ s: productUpdate(product: {id: $stick, descriptionHtml: $stickDesc}) { product { handle } userErrors { field message } }
+ m: productUpdate(product: {id: $mitt, descriptionHtml: $mittDesc}) { product { handle } userErrors { field message } }
+ h: productUpdate(product: {id: $heel, descriptionHtml: $heelDesc}) { product { handle } userErrors { field message } }
+ ps: shopPolicyUpdate(shopPolicy: $ship) { shopPolicy { type } userErrors { field message } }
+ pr: shopPolicyUpdate(shopPolicy: $ref) { shopPolicy { type } userErrors { field message } }
+ t: themeUpdate(id: $theme, input: {name: "fig&oat"}) { theme { name } userErrors { field message } }
+ ws: productVariantsBulkUpdate(productId: $stick, variants: $vs) { productVariants { sku } userErrors { field message } }
+ wm: productVariantsBulkUpdate(productId: $mitt, variants: $vm) { productVariants { sku } userErrors { field message } }
+ wh: productVariantsBulkUpdate(productId: $heel, variants: $vh) { productVariants { sku } userErrors { field message } }
+}
