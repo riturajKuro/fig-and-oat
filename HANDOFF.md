@@ -1,7 +1,7 @@
 # fig&oat: handoff to a new Claude Code account
 
-Last updated: 15 Nov 2026. In the new account, start the first session in this folder and say:
-"Read HANDOFF.md and continue the fig&oat store setup."
+Last updated: 20 Nov 2026. In a new session, say: "Read HANDOFF.md and continue the fig&oat store setup."
+**Read "Status and decisions (18–20 Nov 2026)" and `research/launch-plan-2026-11-20.md` first.** Older sections are history: where they conflict, the newer section wins (for example, the guarantee is moving to 60 days and the Set is replaced by the Routine discount).
 
 ## Where things live
 - **Google Drive is the shared home for all devices:** folder "fig&oat" in concierge@figandoat.com's Drive: https://drive.google.com/drive/folders/145biQtIgTXlThfGo7EGS5I2dX6yKPVhz. Save new docs, notes and assets there, and keep HANDOFF.md there up to date.
@@ -108,9 +108,7 @@ AliExpress US item IDs = .com ID + 2251799813685248.
   - `gql/` holds the queries, product payloads and policy payloads.
 
 ## Launch plan doc
-https://claude.ai/artifact/9ERo44AKpCBd7vjXhax6ui ("KP Body Kit: Launch Plan"). It is private to the **old** Claude account. Before switching, either:
-- open it, then use **Share** and add the new account's email with edit access, or
-- use the doc's **Export → Markdown** and save the file into this folder.
+**Current:** `research/launch-plan-2026-11-20.md` (Google Doc copy in the fig&oat Drive folder). The old "KP Body Kit: Launch Plan" artifact from the previous Claude account is superseded.
 
 ## Reconnect in the new account
 Connectors belong to the Claude account, so none of them move over. Add each one in the new account's Connectors settings:
