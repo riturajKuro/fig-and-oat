@@ -1,0 +1,27 @@
+{
+ "page": {
+  "title": "The Smooth Skin Routine",
+  "handle": "smooth-skin-routine",
+  "body": "<p><strong>Rough, bumpy skin on your legs or arms? Two steps, two ways to exfoliate.</strong></p>\n<p>The Smooth Skin Routine pairs two Smooth Sticks (glycolic acid you swipe on and leave on) with the Exfoliating Mitt (just water and friction). Acids loosen dead surface skin; the mitt buffs it away. Together they smooth the look of rough, bumpy skin.</p>\n<p><a href=\"/cart/68204227035415:1,68204227199255:1\"><strong>Add the routine to cart: 2 sticks + FREE mitt, $52</strong></a></p>\n<h3>What's inside</h3>\n<ul>\n<li><strong>2 × The Smooth Stick</strong>: 7% glycolic acid, 0.5% salicylic acid, 10% shea butter. 18 g / 0.64 oz each.</li>\n<li><strong>1 × The Exfoliating Mitt</strong>: 100% viscose, elastic cuff, hanging loop. Free with any 2- or 3-stick pack ($14 value).</li>\n</ul>\n<h3>How to use</h3>\n<ol>\n<li><strong>Swipe:</strong> on clean, dry skin, glide the stick 2–3 times over rough areas. Leave on, no rinse. Start every other evening, then build to daily.</li>\n<li><strong>Buff:</strong> once or twice a week in the shower, wet the mitt, wring it out and use long strokes with light pressure. Rinse and moisturize.</li>\n<li>Use sunscreen on treated areas during the day.</li>\n</ol>\n<h3>Good to know</h3>\n<p>Skip broken, irritated or freshly shaved skin, and don't use the mitt and stick on the same evening at first. A light tingle is normal; stop if irritation occurs. Patch test first. For external use only.</p>\n<h3>Shipping and guarantee</h3>\n<p>Free US shipping, delivered in 8–16 business days with tracking. Items may arrive in separate packages. 60-day smooth-skin guarantee: if you don't love how your skin feels, email us for a full refund and keep the product.</p>\n<p><em>During our launch, products ship in the manufacturer's original packaging.</em></p>",
+  "isPublished": true
+ },
+ "set": "gid://shopify/Product/15485025648919",
+ "c1": {
+  "title": "Shop all",
+  "handle": "shop-all",
+  "products": [
+   "gid://shopify/Product/15485025583383",
+   "gid://shopify/Product/15485025714455",
+   "gid://shopify/Product/15485025845527"
+  ]
+ },
+ "c2": {
+  "title": "Routines & bundles",
+  "handle": "routines",
+  "descriptionHtml": "<p>Buy 2 or 3 Smooth Sticks and get the Exfoliating Mitt free.</p>",
+  "products": [
+   "gid://shopify/Product/15485025583383",
+   "gid://shopify/Product/15485025714455"
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+mutation {
+ a: publishablePublish(id: "gid://shopify/Collection/536483791127", input: [{publicationId: "gid://shopify/Publication/332830441751"}, {publicationId: "gid://shopify/Publication/332830507287"}]) { userErrors { field message } }
+ b: publishablePublish(id: "gid://shopify/Collection/536483823895", input: [{publicationId: "gid://shopify/Publication/332830441751"}, {publicationId: "gid://shopify/Publication/332830507287"}]) { userErrors { field message } }
+}

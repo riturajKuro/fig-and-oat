@@ -1,0 +1,6 @@
+mutation Phase2($page: PageCreateInput!, $set: ID!, $c1: CollectionInput!, $c2: CollectionInput!) {
+ p: pageCreate(page: $page) { page { id handle } userErrors { field message } }
+ a: productUpdate(product: {id: $set, status: ARCHIVED}) { product { status } userErrors { field message } }
+ c1: collectionCreate(input: $c1) { collection { id handle } userErrors { field message } }
+ c2: collectionCreate(input: $c2) { collection { id handle } userErrors { field message } }
+}

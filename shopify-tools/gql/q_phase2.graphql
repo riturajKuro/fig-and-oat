@@ -1,0 +1,6 @@
+{
+ c1: collection(id: "gid://shopify/Collection/536483791127") { title productsCount { count } handle publishedOnPublication(publicationId: "gid://shopify/Publication/332830441751") }
+ c2: collection(id: "gid://shopify/Collection/536483823895") { title productsCount { count } handle publishedOnPublication(publicationId: "gid://shopify/Publication/332830441751") }
+ s: product(id: "gid://shopify/Product/15485025648919") { status }
+ pg: page(id: "gid://shopify/Page/180008780055") { title handle isPublished }
+}
