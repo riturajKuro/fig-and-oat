@@ -87,15 +87,15 @@ AliExpress US item IDs = .com ID + 2251799813685248.
 - **DSers default US shipping is still "AliExpress standard" (~19 days, ~$7.01).** It was left unchanged on purpose: the "Selection" (Choice) method names include "For Special Goods" variants that cosmetics may need, and a wrong default could fail orders. Pick the Choice/Selection method per order in DSers (or set the default after the first test order shows which method applies).
 - **Store audit:** `research/store-audit-2026-11-16.md` (also a Google Doc in Drive). Biggest blocker: products aren't published to any sales channel.
 
-## Open to-dos
-1. Map all 4 products in DSers. Then confirm real cost, US shipping time and margins.
-2. Order samples. Check the stick size, label, INCI ingredient list and smell.
-3. Add product photos.
-4. Rename the theme to "fig&oat".
-5. Add a business address to the policies and the store.
-6. Connect figandoat.com in Shopify.
-7. Set up Meta: pixel and Conversions API (via the Facebook & Instagram app in Shopify), the ad account and creatives.
-8. Remove the store password only once everything above is done.
+## Status and decisions (18–20 Nov 2026)
+- **DSers order note: done** (owner set it). Default AliExpress message: "We are dropshipping. Kindly don't add any invoices, receipts or promotional materials." The store has no message of its own, so the default applies. Checked 18 Nov in Rituraj's Chrome (Browser 1, DSers signed in as "concierge").
+- **DSers US shipping, read-only check 18 Nov:** every product offers only one US method at **$1.99**: Stick 1 pc / 3 pcs "Choice Special Cargo Standard PRE" 9–15 / 10–16 days; Mitt "AliExpress Selection Standard" 8–13 days; Heel "Choice Special Cargo Standard PRE" 9–15 days. The global default ("AliExpress standard", ~19 days, $7.01) isn't offered for these products. Not locked per product yet (plan step 1.1).
+- **Mentor answers (Shuayb, 19 Nov):** start ads now with allowed content; no private label at first; no US LLC needed; guarantee length barely matters, so match 60 days.
+- **Owner research (Drive folder "Assets for products", in the Drive root):** the Lakerain stick copies **The INKEY List Glycolic Acid Body Stick** (45 g, 8K+ bought/month on Amazon). Ours is 18 g at $24. The urea stick also sells for elbows, knees and hands. Mitt competitors lead with self-tan prep and the roll-off reveal. Competitor images are reference only.
+- **Decision 20 Nov: main offer = "Smooth Skin Routine",** 2 sticks + mitt for $39 (separately $54). It uses a Shopify automatic discount and a cart link, with no DSers upgrade. Estimated margin ~$25/order.
+- **Decision 20 Nov: ads = AI-avatar UGC** for how-to, routine and explainers only. No before/after, no personal-result claims.
+- **Final plan:** `research/launch-plan-2026-11-20.md`, also a Google Doc in the fig&oat Drive folder (1IF_XfSlVYEexvG5lZdFYa9b-hEIbTR9XGS6I0VqeX10). It replaces the old to-do list.
+- **Higgsfield connector (20 Nov):** connected, Plus plan, 1,210 credits. In this session it can only read (models, history, balance); the generate tools aren't exposed.
 
 ## Files in this folder
 - `fig-and-oat-logo/`: every logo variant (SVG and PNG), the favicon, the Instagram icon and the Jost 500 font. The colors are fig #4A1F3D, oat #F3EADB, honey #B08A5B and leaf #7A8450.
