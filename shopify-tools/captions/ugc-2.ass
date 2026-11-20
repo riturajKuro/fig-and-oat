@@ -1,0 +1,55 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Pop,Poppins ExtraBold,124,&H00FFFFFF,&H00FFFFFF,&H00141414,&H80000000,0,0,0,0,100,100,1,0,1,7,4,5,40,40,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.21,Pop,,0,0,0,,{\pos(360,770)\c&H00FFFFFF\fs100}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}SWITCHED
+Dialogue: 0,0:00:00.21,0:00:00.57,Pop,,0,0,0,,{\pos(360,770)\c&H006FC8F7\fs124}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}RAZORS
+Dialogue: 0,0:00:00.57,0:00:00.75,Pop,,0,0,0,,{\pos(360,770)\c&H00FFFFFF\fs124}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}AND
+Dialogue: 0,0:00:00.75,0:00:01.05,Pop,,0,0,0,,{\pos(360,770)\c&H00FFFFFF\fs100}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}YOUR LEGS
+Dialogue: 0,0:00:01.05,0:00:01.27,Pop,,0,0,0,,{\pos(360,770)\c&H00FFFFFF\fs124}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}STILL
+Dialogue: 0,0:00:01.27,0:00:01.45,Pop,,0,0,0,,{\pos(360,770)\c&H00FFFFFF\fs124}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}LOOK
+Dialogue: 0,0:00:01.45,0:00:02.03,Pop,,0,0,0,,{\pos(360,770)\c&H006FC8F7\fs124}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}BUMPY
+Dialogue: 0,0:00:02.03,0:00:02.25,Pop,,0,0,0,,{\pos(360,770)\c&H00FFFFFF\fs122}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}IT MIGHT
+Dialogue: 0,0:00:02.25,0:00:02.41,Pop,,0,0,0,,{\pos(360,770)\c&H00FFFFFF\fs124}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}NOT
+Dialogue: 0,0:00:02.41,0:00:02.67,Pop,,0,0,0,,{\pos(360,770)\c&H00FFFFFF\fs124}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}BE YOUR
+Dialogue: 0,0:00:02.67,0:00:03.19,Pop,,0,0,0,,{\pos(360,770)\c&H006FC8F7\fs124}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}RAZOR
+Dialogue: 0,0:00:03.19,0:00:03.51,Pop,,0,0,0,,{\pos(360,770)\c&H00FFFFFF\fs84}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}THOSE LITTLE
+Dialogue: 0,0:00:03.51,0:00:03.81,Pop,,0,0,0,,{\pos(360,770)\c&H00FFFFFF\fs124}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}DOTS
+Dialogue: 0,0:00:03.81,0:00:03.99,Pop,,0,0,0,,{\pos(360,770)\c&H00FFFFFF\fs124}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}ARE
+Dialogue: 0,0:00:03.99,0:00:04.29,Pop,,0,0,0,,{\pos(360,770)\c&H00FFFFFF\fs124}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}OFTEN
+Dialogue: 0,0:00:04.29,0:00:04.55,Pop,,0,0,0,,{\pos(360,770)\c&H00FFFFFF\fs124}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}DEAD
+Dialogue: 0,0:00:04.55,0:00:04.87,Pop,,0,0,0,,{\pos(360,770)\c&H00FFFFFF\fs124}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}SKIN
+Dialogue: 0,0:00:04.87,0:00:05.11,Pop,,0,0,0,,{\pos(360,770)\c&H00FFFFFF\fs124}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}AROUND
+Dialogue: 0,0:00:05.11,0:00:05.39,Pop,,0,0,0,,{\pos(360,770)\c&H00FFFFFF\fs120}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}THE HAIR
+Dialogue: 0,0:00:05.39,0:00:06.05,Pop,,0,0,0,,{\pos(360,770)\c&H00FFFFFF\fs108}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}FOLLICLES
+Dialogue: 0,0:00:06.05,0:00:06.37,Pop,,0,0,0,,{\pos(360,770)\c&H00FFFFFF\fs124}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}THIS IS
+Dialogue: 0,0:00:06.37,0:00:06.97,Pop,,0,0,0,,{\pos(360,770)\c&H006FC8F7\fs92}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}A GLYCOLIC
+Dialogue: 0,0:00:06.97,0:00:07.27,Pop,,0,0,0,,{\pos(360,770)\c&H006FC8F7\fs124}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}ACID
+Dialogue: 0,0:00:07.27,0:00:07.63,Pop,,0,0,0,,{\pos(360,770)\c&H006FC8F7\fs124}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}STICK
+Dialogue: 0,0:00:07.63,0:00:07.87,Pop,,0,0,0,,{\pos(360,770)\c&H00FFFFFF\fs124}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}WITH
+Dialogue: 0,0:00:07.87,0:00:08.39,Pop,,0,0,0,,{\pos(360,770)\c&H006FC8F7\fs106}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}SALICYLIC
+Dialogue: 0,0:00:08.39,0:00:08.75,Pop,,0,0,0,,{\pos(360,770)\c&H006FC8F7\fs124}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}ACID
+Dialogue: 0,0:00:08.75,0:00:08.97,Pop,,0,0,0,,{\pos(360,770)\c&H00FFFFFF\fs124}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}AND
+Dialogue: 0,0:00:08.97,0:00:09.19,Pop,,0,0,0,,{\pos(360,770)\c&H006FC8F7\fs124}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}SHEA
+Dialogue: 0,0:00:09.19,0:00:09.73,Pop,,0,0,0,,{\pos(360,770)\c&H00FFFFFF\fs124}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}BUTTER
+Dialogue: 0,0:00:09.73,0:00:09.93,Pop,,0,0,0,,{\pos(360,770)\c&H006FC8F7\fs124}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}SWIPE IT
+Dialogue: 0,0:00:09.93,0:00:10.27,Pop,,0,0,0,,{\pos(360,770)\c&H006FC8F7\fs124}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}ON DRY
+Dialogue: 0,0:00:10.27,0:00:10.81,Pop,,0,0,0,,{\pos(360,770)\c&H00FFFFFF\fs124}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}SKIN
+Dialogue: 0,0:00:10.81,0:00:11.03,Pop,,0,0,0,,{\pos(360,770)\c&H00FFFFFF\fs124}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}LEAVE IT
+Dialogue: 0,0:00:11.03,0:00:11.53,Pop,,0,0,0,,{\pos(360,770)\c&H00FFFFFF\fs124}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}ON
+Dialogue: 0,0:00:11.53,0:00:12.14,Pop,,0,0,0,,{\pos(360,770)\c&H006FC8F7\fs118}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}NO RINSE
+Dialogue: 0,0:00:13.11,0:00:13.65,Pop,,0,0,0,,{\pos(360,1045)\c&H006FC8F7\fs88}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}IT SMOOTHS
+Dialogue: 0,0:00:13.65,0:00:13.83,Pop,,0,0,0,,{\pos(360,1045)\c&H00FFFFFF\fs96}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}THE LOOK
+Dialogue: 0,0:00:13.83,0:00:14.01,Pop,,0,0,0,,{\pos(360,1045)\c&H00FFFFFF\fs96}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}OF
+Dialogue: 0,0:00:14.01,0:00:14.37,Pop,,0,0,0,,{\pos(360,1045)\c&H00FFFFFF\fs96}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}ROUGH
+Dialogue: 0,0:00:14.37,0:00:14.73,Pop,,0,0,0,,{\pos(360,1045)\c&H006FC8F7\fs96}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}BUMPY
+Dialogue: 0,0:00:14.73,0:00:14.97,Pop,,0,0,0,,{\pos(360,1045)\c&H00FFFFFF\fs96}{\fscx72\fscy72\t(0,80,\fscx108\fscy108)\t(80,150,\fscx100\fscy100)}SKIN
