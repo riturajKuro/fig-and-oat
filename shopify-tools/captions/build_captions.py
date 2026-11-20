@@ -9,10 +9,11 @@ FONT = ImageFont.truetype(os.path.join(HERE, "fonts", "Poppins-ExtraBold.ttf"), 
 SCRIPTS = {
  "ugc-1": "My two-step routine for rough, bumpy skin. Most nights, on dry skin, two or three swipes of this glycolic stick. Leave it on, no rinse, no sticky hands. Once or twice a week in the shower, this mitt: wet it, wring it out, long strokes. Acids plus friction.",
  "ugc-2": "Switched razors and your legs still look bumpy? It might not be your razor. Those little dots are often dead skin around the hair follicles. This is a glycolic acid stick, with salicylic acid and shea butter. Swipe it on dry skin, leave it on, no rinse. It smooths the look of rough, bumpy skin.",
+ "ugc-5": "Bumpy legs a new razor didn't fix? Here's my no-mess fix: a glycolic acid stick. Two or three swipes on dry skin, then leave it on. No rinse, no sticky hands. And here's the best part... grab two, and get the exfoliating mitt for free!",
  "ugc-4": "Bumpy legs that a new razor didn't fix? This is my no-mess fix. A glycolic acid stick: two or three swipes on dry skin, leave it on. No rinse, no sticky hands. Start every other night. And grab two, the mitt's free.",
 }
-OVERRIDES = {"ugc-2": [(12.8, 1045, 96)]}   # (from second, y, max font size): move captions off the label close-up
-HIGHLIGHT = {"bumpy", "glycolic", "acid", "salicylic", "shea", "rinse", "free", "razor", "razors", "mess", "no-mess",
+OVERRIDES = {"ugc-2": [(12.8, 1045, 96)], "ugc-5": [(12.0, 845, 124)]}   # (from second, y, max font size): move captions off the label close-up
+HIGHLIGHT = {"exfoliating", "grab", "best", "bumpy", "glycolic", "acid", "salicylic", "shea", "rinse", "free", "razor", "razors", "mess", "no-mess",
              "smooths", "smooth", "swipe", "swipes", "stick", "mitt", "mitt's", "friction", "sticky", "two-step", "dry"}
 WHITE, HONEY = "&H00FFFFFF", "&H006FC8F7"   # ASS is &HAABBGGRR -> honey-gold #F7C86F
 
@@ -51,8 +52,11 @@ def build(key, ypos, dur):
     al, notes = align(words, SCRIPTS[key])
     # join split hyphenated words ("two" + "-step")
     j = []
+    hyph = {norm(t.replace("-", "")): t for t in script_tokens(SCRIPTS[key]) if "-" in t}
     for w in al:
-        if j and w["t"].startswith("-"):
+        if j and norm(j[-1]["t"] + w["t"]) in hyph and "-" not in j[-1]["t"]:
+            j[-1] = {**j[-1], "t": hyph[norm(j[-1]["t"] + w["t"])], "e": w["e"]}
+        elif j and w["t"].startswith("-"):
             j[-1] = {**j[-1], "t": j[-1]["t"] + w["t"], "e": w["e"]}
         else:
             j.append(dict(w))
