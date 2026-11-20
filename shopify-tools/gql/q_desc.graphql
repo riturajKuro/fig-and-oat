@@ -1,0 +1,1 @@
+{ a: product(id: "gid://shopify/Product/15485025583383") { descriptionHtml } b: product(id: "gid://shopify/Product/15485025714455") { descriptionHtml } c: product(id: "gid://shopify/Product/15485025845527") { descriptionHtml } }
