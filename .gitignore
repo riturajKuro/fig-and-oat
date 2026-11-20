@@ -4,3 +4,4 @@ node_modules/
 __pycache__/
 desktop.ini
 .DS_Store
+creatives/
